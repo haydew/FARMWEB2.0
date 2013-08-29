@@ -1,5 +1,5 @@
 <?php $farmid = $_GET["farmid"]; 
-$conn = pg_connect("host=localhost dbname=postgis user=postgres password=lara1000" );
+$conn = pg_connect("host=localhost dbname=postgis user=postgres password=xxxxxx" );
 if (!$conn) {
   echo "An Database error occurred.\n";
   exit;
